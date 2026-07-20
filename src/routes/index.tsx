@@ -482,5 +482,5 @@ function Toolkit({ zone, setZone }: { zone: number; setZone: (n: number) => void
           >
             <p className="font-serif-display text-2xl leading-snug md:text-4xl">{z.body}</p>
             <div className="mt-8 flex flex-wrap gap-2">
-              {z.tags.mmap((t) => (
+              {z.tags.map((t) => (
                 <span
